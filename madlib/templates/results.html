@@ -1,0 +1,11 @@
+{% for title,result in results %}<BULK-ARTICLE-START>
+<BULK-CAMPAIGN>{{form.campaign_name}}</BULK-CAMPAIGN>
+<BULK-CAMPAIGN-DESCRIPTION>{{form.description}}</BULK-CAMPAIGN-DESCRIPTION>
+<BULK-TITLE>{{title}}</BULK-TITLE>
+<BULK-BODY-TEXT>{% if encode_html %}{{result}}{% else %}{{result|safe}}{% endif %}</BULK-BODY-TEXT>
+<BULK-TAGS>{{form.tags}}</BULK-TAGS>
+<BULK-EXCERPT>{{form.excerpt}}</BULK-EXCERPT>
+<BULK-CATEGORIES>{{form.categories}}</BULK-CATEGORIES>
+<BULK-ARTICLE-END>
+
+{% endfor %}

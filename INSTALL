@@ -1,0 +1,6 @@
+Install Apache 2.2
+Install mod_python
+Install django 1.0
+Copy madlib.conf to Apache virtual host directory
+Edit madlib.conf and set correct paths to this directory and set ServerName
+Restart Apache

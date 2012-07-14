@@ -1,0 +1,25 @@
+/* Reset and defaults */
+* { margin: 0; padding: 0; font-family: Helvetica, Tahoma, Arial; }
+html { background-color: white; }
+body { width: 740px; margin-left: auto; margin-right: auto; margin-top: 15px; }
+h1 { font-size: 16px; margin-top: 5px; margin-bottom: 5px; }
+p { margin-top: 3px; margin-bottom: 3px; }
+input { border: 1px solid gray; width: 470px; }
+input.short { width: 50px; }
+button.image { border-width: 0; background-color: transparent; vertical-align: bottom; }
+textarea { vertical-align: top; width: 470px; }
+
+/* Layout */
+form p { margin-top: 5px; margin-bottom: 10px;  }
+form p label { display: inline-table; width: 170px; text-align: right; }
+textarea.small { height: 80px; }
+textarea.large { height: 300px; }
+#id_encode_embedded_HTML, #id_description, #id_madlib { margin-bottom: 20px; }
+button.submit { margin-left: 170px; }
+
+/* Typography */
+html, input, textarea, select { font-size: 11px; }
+ul.errorlist { color: red; list-style-type: none; text-align: right; }
+form p label { font-weight: bold; }
+#oldTitles { margin-left: 173px; margin-top: 10px; }
+#oldTitles li { margin-bottom: 3px; }
